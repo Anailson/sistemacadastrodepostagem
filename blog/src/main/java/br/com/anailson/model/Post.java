@@ -37,7 +37,7 @@ public class Post implements Serializable {
 
 	@Column(nullable = false)
 	@Temporal(TemporalType.DATE)
-	@DateTimeFormat(pattern = "yyy-MM-dd")
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date data;
 
 	public Long getId() {
